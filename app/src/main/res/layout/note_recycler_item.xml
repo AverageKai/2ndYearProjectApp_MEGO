@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp">
+
+        <TextView
+            android:id="@+id/recTitle"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:text="Title"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="175dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="213dp"
+            android:layout_marginTop="10dp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="330dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="9dp"
+            android:background="@color/background"
+            android:backgroundTint="@color/background"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/recDesc"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_below="@id/recTitle"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="12dp"
+                android:maxLines="1"
+                android:text="desc"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:padding="4dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

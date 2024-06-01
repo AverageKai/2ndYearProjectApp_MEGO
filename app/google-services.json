@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "105513915249",
+    "firebase_url": "https://expensemanager-8db1c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "expensemanager-8db1c",
+    "storage_bucket": "expensemanager-8db1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105513915249:android:fd9ea4c6b47b77a6a79cd0",
+        "android_client_info": {
+          "package_name": "com.example.expensemanagerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCszfGnYtBX_z66NVLV_lkVqxsBzFjiSRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105513915249:android:48790ce76ad6e39da79cd0",
+        "android_client_info": {
+          "package_name": "com.example.mego"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCszfGnYtBX_z66NVLV_lkVqxsBzFjiSRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

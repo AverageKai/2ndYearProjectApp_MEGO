@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#DB4A2B</color>
+    <color name="navheader">#FB8923</color>
+    <color name="toolbar">#FBC601</color>
+    <color name="accent">#351980</color>
+
+    <color name="Dashboard">#1264BD</color>
+    <color name="income">#4AF600</color>
+    <color name="expense">#FF0000</color>
+    <color name="Fragment">#FBFBFB</color>
+    <color name="FragmentIncome">#2B8704</color>
+    <color name="FragmentExpense">#A10303</color>
+    <color name="DateColor">#00FFE1</color>
+    <color name="expenseAmount">#FF5100</color>
+    <color name="incomeAmount">#A7EC05</color>
+</resources>

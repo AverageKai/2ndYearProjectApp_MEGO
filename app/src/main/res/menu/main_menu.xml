@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+        <item
+            android:id="@+id/nav_savings"
+            android:title="Savings"
+            android:icon="@drawable/ic_sav"/>
+        <item
+            android:id="@+id/nav_exp"
+            android:title="Expenses"
+            android:icon="@drawable/ic_exp"/>
+        <item
+            android:id="@+id/nav_calendar"
+            android:title="Events List"
+            android:icon="@drawable/ic_event"/>
+        <item
+            android:id="@+id/nav_list"
+            android:title="Goals List"
+            android:icon="@drawable/ic_goal"/>
+    </group>
+
+        <item
+            android:title="Profile">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_settings"
+                        android:title="Settings"
+                        android:icon="@drawable/ic_setting"/>
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:title="Logout"
+                        android:icon="@drawable/ic_logout"/>
+                </group>
+            </menu>
+        </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/ic_share"/>
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate Us"
+                android:icon="@drawable/ic_rate"/>
+        </menu>
+    </item>
+</menu>

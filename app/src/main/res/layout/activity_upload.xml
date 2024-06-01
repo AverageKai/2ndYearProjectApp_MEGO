@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:backgroundTint="@color/background"
+android:background="@color/background"
+tools:context=".UploadActivity">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginStart="20dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:background="@drawable/background_button">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Event"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/background"/>
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/calendarView"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/uploadTopic"
+            android:background="@drawable/background_button"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:hint="Enter Event name"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/background"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/uploadDesc"
+            android:background="@drawable/background_button"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:hint="Enter description"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/background"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Save"
+            android:id="@+id/saveButton"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/background"
+            app:cornerRadius = "20dp"/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</ScrollView>
